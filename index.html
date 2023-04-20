@@ -2,55 +2,90 @@
 <html lang="en">
 
 <head>
+    <!--Required meta tags-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!--Bootstrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--Additional CSS-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Gravel Bike Paradise</title>
 </head>
 
 <body>
 
-    <header>
-        <div>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
             <h1>Gravel Bike Paradise</h1>
-            <h2>Get lost on the gravel</h2>
+            <h2>Get Lost on the Gravel</h2>
+                </div>
+            </div>
         </div>
     </header>
 
-    <div>
-        <h2>Discover & Review</h2>
-        <h3>Our Routes</h3>
-        <p>Explore our growing database of gravel and dirt road adventures. Leave the city behind!</p>
-    </div>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Discover & Review</h2>
+            </div>
+            <div class="col">
+                <h3>Routes</h3>
+                <p>Explore our growing database of gravel and dirt road adventures. Leave the city behind!</p>
+            </div>
+        </div>
 
-    <div>
-        <h2>Our Community Partners</h2>
-        <h3>Gravel Bike - Tour the Shop</h3>
-        <p>Supplies and gear you need to stay safe at prices you can't beat</p>
-    </div>
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2>Featured Routes</h2>
+            </div>
+            <div class="col">
+                <h3>Waterton Canyon</h3>
+                <p>Location: Wateron Canyon, Littleton CO 80111 Nestled into the valley of Waterton Canyon, come check out this 14 miles out and back route.</p>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Our Community Partners</h2>
+            </div>
+            <div class="col">
+                <h3>Gravel Bike - Tour the Shop</h3>
+                <p>Supplies and gear you need to stay safe at prices you can't beat</p>
+            </div>
+        </div>
+    </div>    
 
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Routes</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-555-555-5555<br />
-            Email: gravelbikeparadise@gmail.com
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Routes</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    Tel: 1-555-555-5555<br />
+                    Email: gravelbikeparadise@gmail.com
+                </div>
+            </div>
         </div>
     </footer>
 
