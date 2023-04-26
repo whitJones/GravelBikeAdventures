@@ -1,0 +1,83 @@
+$color-primary: #1c9ead;
+$color-secondary: #3046C5;
+$color-pale: #c8ffea;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: $body-font;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+header h1 {
+    color: $color-primary;
+    text-shadow: 0 0 2px #000;
+}
+
+h2 {
+    color: $color-secondary;
+}
+
+header {
+    h2 {
+    color: #fafafa;
+    text-shadow: 0 0 2px #000;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    margin: 0;
+    padding: 30px;
+    background-image: url("https://www.patagonia.com/dw/image/v2/bdjb_PRD/on/demandware.static/-/Sites-patagonia-storefront-na/default/dw66955b11/category/hero/sport-mountain-biking-womens-hero.jpg?q=85&sw=1104&");
+    background-size: cover;
+    text-shadow: #444 0 1px 1px;
+    height: 400px;
+}
+
+
+.row-content {
+    padding: 25px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-primary;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    border-width: 6px;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $color-primary;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
